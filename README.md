@@ -47,3 +47,7 @@ Finally, at the pgpool node, we should restart the service with *systemctl resta
 ### 1 Master and 1 slave down / Only 1 slave up
 
 In this scenario we should reconfigure the node and promote it to master, following the above instructions.
+
+## Rationale
+
+This is a showcase of what can be done with Python to design a more fine-grained failover mechanism than the shell script samples from pgpool. The code works but it can be designed better and improved a lot.
